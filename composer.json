@@ -15,14 +15,14 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0|^8.1",
-        "nesbot/carbon": "^1.26.3 || ^2.0",
-        "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
-        "league/oauth2-client": "^2.0"
+        "php": "^7.2|^8.0|^8.1|^8.2|^8.3",
+        "nesbot/carbon": "^1.26.3 || ^3.8",
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0",
+        "league/oauth2-client": "^2.7"
     },
     "require-dev": {
-        "orchestra/testbench": "^5.0|^6.0|^7.0",
-        "phpunit/phpunit": "^8.0|^9.0|^10.0"
+        "orchestra/testbench": "^5.0|^6.0|^7.0|^9.4",
+        "phpunit/phpunit": "^8.0|^9.0|^10.0|^11.0"
     },
     "autoload": {
         "psr-4": {
@@ -47,9 +47,7 @@
             "providers": [
                 "MacsiDigital\\OAuth2\\Providers\\OAuth2ServiceProvider"
             ],
-            "aliases": {
-
-            }
+            "aliases": {}
         }
     },
     "minimum-stability": "dev",
